@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Controls elements on page 1`] = `
+<div>
+  <div>
+    <label>
+      Head Options
+      <select>
+        <option>
+          bird
+        </option>
+        <option>
+          dog
+        </option>
+        <option>
+          duck
+        </option>
+      </select>
+    </label>
+    <label>
+      Torso Options
+      <select>
+        <option>
+          blue
+        </option>
+        <option>
+          fancy
+        </option>
+        <option>
+          pink
+        </option>
+        <option>
+          red
+        </option>
+      </select>
+    </label>
+    <label>
+      Pant Options
+      <select>
+        <option>
+          blue
+        </option>
+        <option>
+          dog
+        </option>
+        <option>
+          leg
+        </option>
+        <option>
+          white
+        </option>
+      </select>
+    </label>
+    <label>
+      Catch Phrase:
+      <input
+        type="text"
+        value=""
+      />
+      <button
+        type="button"
+      >
+        Add a catchphrase!
+      </button>
+    </label>
+  </div>
+</div>
+`;

@@ -5,6 +5,7 @@ export default function Character({ head, torso, pants }) {
     <section className="entire-character">
       <div className="head">
         <img
+          aria-label="head"
           alt="character-head"
           src={`${head}-head.png`}
           width="200"
@@ -14,6 +15,7 @@ export default function Character({ head, torso, pants }) {
 
       <div className="torso">
         <img
+          aria-label="torso"
           alt="character-torso"
           src={`${torso}-torso.png`}
           width="200"
@@ -21,8 +23,9 @@ export default function Character({ head, torso, pants }) {
         ></img>
       </div>
 
-      <div className="torso">
+      <div className="pant">
         <img
+          aria-label="pant"
           alt="character-pants"
           src={`${pants}-pants.png`}
           width="200"
