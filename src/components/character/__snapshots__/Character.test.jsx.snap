@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Controls elements on page 1`] = `
+<div>
+  <section
+    class="entire-character"
+  >
+    <div
+      class="head"
+    >
+      <img
+        alt="character-head"
+        aria-label="head"
+        height="200"
+        src="duck-head.png"
+        width="200"
+      />
+    </div>
+    <div
+      class="torso"
+    >
+      <img
+        alt="character-torso"
+        aria-label="torso"
+        height="200"
+        src="pink-torso.png"
+        width="200"
+      />
+    </div>
+    <div
+      class="pant"
+    >
+      <img
+        alt="character-pants"
+        aria-label="pant"
+        height="200"
+        src="undefined-pants.png"
+        width="200"
+      />
+    </div>
+  </section>
+</div>
+`;
